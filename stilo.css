@@ -1,0 +1,185 @@
+:root {
+	--cormenu: #FFB6C1;
+	--cinza: #f5f5f5;
+}
+
+html, body{
+	margin: 0; padding: 0; scroll-behavior: smooth;
+	background-image: url(pattern.jpg); 
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	height: 100%;
+	
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 70px;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 100;
+}
+h3{
+	font-family: 'Satisfy', cursive;
+	font-size: 35px;
+	margin-top: 2px;
+}
+p{
+	margin-top: -10px;
+	margin-bottom: 60px;
+}
+.fotoperfil{
+	border-radius: 144px;
+    box-shadow: 0px 9px 30px 5px #A9A9A9;
+}
+nav ul {
+	list-style: none; /*sem marcador (bolinha)*/
+	text-align: center;
+	padding: 15px;
+	height: 600px;
+
+}
+nav li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	line-height: 60px;
+	height: 50px;
+}
+
+nav a { /*mudo o link*/
+	text-decoration: none;
+	color: #797776;
+}
+nav a:hover { /*mudo o passe do mouse*/
+	color: white;
+}
+nav a:active {
+	color: white;
+	cursor: default;
+}
+nav{
+	margin: 0;
+	width: 300px;
+	z-index: 1;
+	height: 100%;
+}
+#menu {
+	position: fixed;
+	width: 300px;
+	z-index: 1;
+	height: 100%;
+	background-color: #ffb6c1;
+}
+.conteudo{
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	min-height: 610px; 
+	margin-left: 300px;
+	padding-left: 20px;
+	vertical-align: middle; 
+	box-sizing: border-box; 
+	line-height: 20px;
+}
+#quemsoueu{
+	padding-top: 100px;
+}
+
+
+.imgex{
+	
+}
+
+.galeria{
+	margin-right: 10px ; 
+}
+.galeria img{
+	transition: 1s;
+	padding: 15px;
+	width: 350px;
+	height: 350px;
+}
+.galeria img:hover{
+	filter: grayscale(80%);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+form{
+	background-color: #FFB6C1;
+	padding: 10px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap; 
+}
+input{
+	height: 20px;
+	color: #797776;
+	margin-bottom: 20px;
+	border: none;
+}
+#nome {
+	width: 425px;
+}
+#email{
+	width: 425px;
+}
+#mensagem {
+	width: 350px;
+	height: 85px;
+}
+#botao{
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	height: 30px;
+    width: 158vh;
+}
+
+.icones {
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.fas{
+	color: #797776;
+	font-size: 95px;
+	margin-right: 20px;
+	transition: all 0.3s linear;
+}
+
+.fab{
+	color: #797776;
+	font-size: 100px;
+	margin-right: 20px;
+	transition: all 0.3s linear;
+}
+
+.fas:hover{
+	color: var(--cormenu);
+	font-size: 95px;
+	transition: all 0.3s linear;
+
+}
+
+.fab:hover{
+	color: var(--cormenu);
+	font-size: 100px;
+	transition: 0.3s;
+	transition: all 0.3s linear;
+}
+button{
+	background: none;
+	border: none;
+}
+#insta{
+	color: black;
+}
+#insta:hover{
+	cursor: default;
+	color: var(--cormenu);
+}

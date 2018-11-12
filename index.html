@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300|Satisfy" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stilo.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    	<title>Rebeka Melo Makeup - Meu Portifólio</title>
+    	<meta charset="UTF-8">
+    	<meta name="description" content="Portifólio com algumas maquiagens  Maquiagem">
+        <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    	<meta name="author" content="Rebeka Melo">
+    	
+    </head>
+    <body>
+    <div id='borao'>
+        <div id= 'menu' >
+            <nav><ul>
+                <img class= "fotoperfil" src="profile.jpg" alt="fotoreprodução" width="250" height="250">
+                <li class= "quemsou"> <a href="#quemsou">QUEM SOU</a></li>
+                <li class= "experiencias"> <a href="#experiencias">EXPERIÊNCIAS</a></li>
+                <li class= "trabalhos"> <a href= "#trabalhos">TRABALHOS</a></li>
+                <li class= "contato"> <a href= "#contato">CONTATO</a></li>
+            </ul></nav>
+        </div>
+        
+        <section>
+        <div class= "conteudo" id= "quemsou">
+            <h1>Rebeka Melo</h1>
+                <p>
+                Olá, seja bem vindo ao meu site! 
+                Sou Rebeka, tenho 24 anos e há 2 anos sou maquiadora profissional. O desejo de trabalhar na área veio quando precisei de uma grana extra e aproveitei para usar todo o meu interesse sobre o assunto.
+                Aqui irei falar um pouco sobre minhas experiências sobre maquiagem, trabalho e estudos. Na aba "trabalhos" você poderá ver alguns dos meus jobs como maquiadora, se você quiser entrar em contato ao final tem todos os links para minhas redes sociais e um formulário de contato.
+                Boa navegação!
+                </p>
+        </div>
+        </section>
+
+        <section>
+            <div class= "conteudo" id= "experiencias">
+                <h2>EXPERIÊNCIAS</h2>
+                <h3>Maquiagem</h3>
+                <p>
+                    Formação de 160h pelo Senac-Ce, em novembro de 2016 onde aprendi sobre ética, peles e 
+                    belezas diferentes. Foi onde tive toda a base para me tornar profissional.
+                    Após fiz um curso de aperfeiçomento de 8h em novembro de 2018 com Pri Lessa, 
+                    referência em todo o Brasil.
+                </p>
+                <h3>Mídias Digitais</h3>
+                <p>
+                    Atualmente curso o terceiro semestre em Sistemas e Mídias Digitais na UFC. É um curso
+                    interdiscipliar onde me permite aprender a interação entre programação de sistemas 
+                    digitais e comunicação baseadas e recursos multimídia. Assim posso direcionar meus 
+                    interesses em desing e multimídias.  
+                </p>
+                <h3>Promoção De Vendas</h3>
+                <p>
+                    Ainda atuo em horário comercial com promotora de vendas de materiais de contrução. 
+                    Não é a minha área, mas me permite trabalhar com pessoas.
+                </p>
+            </div>
+        </section> 
+
+        <section>
+            <div class= "conteudo" id="trabalhos">
+                <h2>TRABALHOS</h2>
+                <p>Conheça meus trabalhos</p>
+                    <div class="galeria">
+                      <a href="IMG_1.jpg"><img src="IMG_1.jpg"></a>
+                      <a href="IMG_2.jpg"><img src="IMG_2.jpg"></a> 
+                      <a href="IMG_3.jpg"><img src="IMG_3.jpg"></a>
+                      <a href="IMG_4.jpg"><img src="IMG_4.jpg"></a> 
+                    </div> 
+            </div>
+        </section> 
+
+        <section>
+            <div class= "conteudo" id="contato">
+                <h2>ENTRE EM CONTATO</h2>
+            <div class="icones">
+
+            
+                <button type="button" onclick="document.getElementById('local').style.display='block'"> <i class="fas fa-map-marker-alt"></i></button>
+                <button type="button" onclick="document.getElementById('whats').style.display='block'"> <i class="fab fa-whatsapp"></i></button>
+                <button type="button" onclick="document.getElementById('insta').style.display='block'"> <i class="fab fa-instagram"></i></button>
+                <button type="button" onclick="document.getElementById('face').style.display='block'"> <i class="fab fa-facebook-square"></i></button> 
+             
+            </div>
+
+            <p class="link" id="local" style="display:none">Caucaia, Ceará- Brasil </p>
+            <p class="link" id="whats" style="display:none"> <a href="https://api.whatsapp.com/send?phone=5585996941639&text=Ol%C3%A1%2C%20assim%20que%20puder%20respondo%20voc%C3%AA!%20Por%20favor%2C%20diga%20qual%20a%20data%20e%20hor%C3%A1rio%20do%20seu%20evento%20para%20adiantarmos%20o%20atendimento.%20%20">Clique para ir direto ao Whatsapp </a></p>
+            <p class="link" id="insta" style="display:none"> <a href="https://www.instagram.com/rebekamaquia/">Clique para ir ao meu perfil do Instagram </a></p>
+            <p class="link" id="face" style="display:none"> <a href="https://www.facebook.com/bekamelomakeup/">Clique para ir ao meu perfil do Facebook </a></p>
+
+
+            <div class="form"> <form>
+            <div class="label">
+                <label for="nome">Nome:</label> <br>
+                <input type="text" name="form" id="nome"> <br>
+
+                <label for="email">Email:</label> <br>
+                <input type="url" name="email" id="email"> <br>
+            </div>
+
+            <div class="label">
+                <label for="idade">Data do Evento:</label> <br>
+                <input type="date" name="data" id="data"> <br>
+    
+                <label for="telefone">WhatsApp:</label> <br>
+                <input type="text" name="telefone" id="telefone"> <br>
+            </div>
+
+            <div class="label">
+                <label for="mensagem">Conte-me mais sobre seu evento ;) </label> <br>
+                <input type="text" name="mensagem" id="mensagem"> <br>
+            </div>
+
+            <div >
+                <input type="submit" value="Enviar" id="botao">
+            </div>
+
+            </form> </div> <!-- div form -->
+            </div>
+        </section>
+
+    </div> /*div borao*/
+    </body>
+</html>
