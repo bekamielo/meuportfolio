@@ -88,11 +88,6 @@ nav{
 	padding-top: 100px;
 }
 
-
-.imgex{
-	
-}
-
 .galeria{
 	margin-right: 10px ; 
 }
@@ -137,7 +132,7 @@ input{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	height: 30px;
-    width: 158vh;
+    width: 100vh;
 }
 
 .icones {
