@@ -85,7 +85,7 @@ nav{
 	line-height: 20px;
 }
 #quemsoueu{
-	padding-top: 100px;
+	padding-bottom: 200px;
 }
 
 .galeria{
@@ -132,7 +132,8 @@ input{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	height: 30px;
-    width: 985px;
+    width: 425px;
+    position: center;
 }
 
 .icones {
